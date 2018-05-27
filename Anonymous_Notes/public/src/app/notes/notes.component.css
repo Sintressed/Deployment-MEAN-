@@ -1,0 +1,29 @@
+
+#date{
+    display: inline-block;
+    margin-left: 356px;
+    font-size: 12px;
+}
+#note{
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.all{
+    width: 500px;
+    border: 2px solid;
+    margin-bottom: 5px;
+
+}
+.scroll{
+    border: 2px solid black;
+    padding: 17px 35px 25px  25px;
+    width: 500px;
+    overflow: auto;
+    height: 300px;
+}
+img{
+    width: 284px;
+    height: 200px;
+    margin-left: 105px;
+    margin-top: 48px;
+}

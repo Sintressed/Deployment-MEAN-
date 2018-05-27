@@ -1,0 +1,19 @@
+
+#background{
+    width: 750px;
+    margin: auto;
+    background-color: rgb(192, 189, 189);
+    padding-bottom: 25px;
+    border: 2px solid;
+}
+app-notes{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 95px;
+    background-color: white;
+}
+app-note-form{
+    display: inline-block;
+    margin-left: 95px;
+
+}

@@ -1,0 +1,12 @@
+<div class = "scroll">   
+        
+    <span *ngIf = 'notes'>
+            <img src = '{{img}}' [ngStyle] = "{
+                'display': display
+            }">
+        <div class = "all" *ngFor = "let note of notes[0]">
+            <div id = "date">{{note.createdAt | date: "medium"}}</div>
+            <div id = "note">{{note.note}}</div>
+        </div>
+    </span>
+</div>

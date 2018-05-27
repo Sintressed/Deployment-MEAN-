@@ -1,0 +1,13 @@
+<h1>Anonymous Notes</h1>
+<form (submit) = "onSubmit(form)" #form = "ngForm">
+  <label>Note:</label>
+  <input 
+  type = "text" 
+  name = "note"
+  required
+  minlength="3"
+  [(ngModel)] = "newnote.note"
+  #note = "ngModel"
+  >
+  <button type = "submit" [disabled]="form.invalid">Add Note</button>
+</form>

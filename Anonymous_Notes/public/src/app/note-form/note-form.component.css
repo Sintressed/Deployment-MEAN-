@@ -1,0 +1,14 @@
+button{
+    background-color: green;
+    color: white;
+}
+form{
+    border: 2px solid black;
+    display: inline-block;
+    width: 524px;
+    padding: 30px 18px;
+    background-color: white;
+}
+input{
+    width: 400px;
+}
